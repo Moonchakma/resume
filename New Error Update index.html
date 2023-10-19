@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="title" content="Watch Faces - WatchWizard" />
+<meta name="description" content="Watch Faces - WatchWizard, the best Watch Faces App for Apple Watch users for free Exclusive & Unique Watch Faces collection with dynamic arrows." />
+<meta name="keywords" content="apple watch faces, apple watch apps, best apple watch app, watch faces, iwatch, apple watch, watchos, custom watch face, live watch face, halloween watch faces, best watch faces, watch faces design, watch face widgets" />
+<meta name="language" content="English" />
+<meta name="revisit-after" content="10 days" />
+<meta name="author" content="Watch Faces - WatchWizard" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./resources/icon/favicon.ico"
+    />
+    <!--  -->
+    <meta name="googlebot" content="noindex" />
+    <meta name="robots" content="noindex" />
+    <meta name="rating" content="adult" />
+    <meta name="robots" content="max-snippet:0" />
+    <meta name="robots" content="max-image-preview:standard" />
+    <meta name="robots" content="max-video-preview:-1" />
+    <meta name="robots" content="unavailable_after: 2020-09-21" />
+    <link
+      rel="sitemap"
+      type="application/xml"
+      title="Sitemap"
+      href="./sitemap.xml"
+    />
+    <link
+      rel="canonical"
+      href="https://www.watchfaceswizard.com/"
+    />
+    <!--  -->
+
+    <!-- ios -->
+    <link rel="apple-touch-icon" href="./resources/icon/apple-icon-precomposed.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./resources/icon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./resources/icon/apple-icon-180x180.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="167x167"
+      href="./resources/icon/apple-icon.png"
+    />
+    <link rel="apple-touch-startup-image" href="./resources/icon/apple-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="icon" sizes="any" href="./resources/icon/apple-icon.svg" />
+    <link rel="mask-icon" href="./resources/icon/apple-icon.svg" color="#212529" />
+    <link rel="icon" type="image/svg+xml" href="./resources/icon/apple-icon.svg" />
+    <!-- ios -->
+    <!-- For iPad -->
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="167x167"
+      href="./resources/icon/apple-icon.png"
+    />
+    <!-- For iPhone -->
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="180x180"
+      href="./resources/icon/apple-icon-180x180.png"
+    />
+    <!-- For Android -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="48x48"
+      href="./resources/icon/android-icon-48x48.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./resources/icon/android-icon-192x192.png"
+    />
+
+    <title>Watch Faces - WatchWizard</title>
+    <meta property="og:url" content="https://watchfaceswizard.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Watch Faces - WatchWizard" />
+    <meta property="og:description" content="Epic Watch Faces Designer & Gallery app for the Apple Watch. Highest level of Watch Faces Customizations for your Apple Watch! Over 1000+ Widgets, Live Wallpapers, Watch Faces and Watch Complications."
+    />
+    <meta
+      property="og:image"
+      content="https://watchfaceswizard.com/resources/apple_watch_face_logo.webp"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="watchfaceswizard.com" />
+    <meta property="twitter:url" content="https://watchfaceswizard.com/" />
+    <meta name="twitter:title" content="Watch Faces - WatchWizard" />
+    <meta
+      name="twitter:description"
+      content="Epic Watch Faces Designer & Gallery app for the Apple Watch.. Highest level of Watch Faces Customizations for your Apple Watch! Over 1000+ Widgets, Live Wallpapers, Watch Faces and Watch Complications."
+    />
+    <meta
+      name="twitter:image"
+      content="https://watchfaceswizard.com/resources/apple_watch_face_logo.webp"
+    />
+    <meta name="apple-itunes-app" content="app-id=6450963467" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+
+    <!-- firebase -->
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
+      import {
+        getAnalytics,
+        logEvent
+      } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-analytics.js";
+      import { getPerformance } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-performance.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDaA6lr0gMwjyvBST87kyf6msMASsFWaz4",
+        authDomain: "watch-faces-watchwizard-web.firebaseapp.com",
+        projectId: "watch-faces-watchwizard-web",
+        storageBucket: "watch-faces-watchwizard-web.appspot.com",
+        messagingSenderId: "615578886921",
+        appId: "1:615578886921:web:52a787e57b56064b38a9d8",
+        measurementId: "G-PCFQJZHLZW"
+      };
+
+      const app = initializeApp(firebaseConfig);
+      const perf = getPerformance(app);
+      const analytics = getAnalytics(app);
+
+      // Function to log the event when a link is clicked
+      function logDownloadEvent(event) {
+        const eventName = event.target.getAttribute("data-event-name");
+        if (eventName) {
+          logEvent(analytics, "download_button_pressed", { place: eventName });
+        }
+      }
+
+      // Add a click event listener to each anchor tag
+      const newLinks = document.querySelectorAll("a[data-event-name]");
+
+      newLinks.forEach((link) => {
+        link.addEventListener("click", logDownloadEvent);
+      });
+
+      // Function to track user device information
+      function trackDeviceInformation() {
+        // Get the device model using the "navigator" object
+        const deviceModel = navigator.userAgent;
+
+        // Send the device model as a custom dimension to Firebase Analytics
+        analytics.setUserId(deviceModel); // You can use "setUserId" to track user-related info
+
+        // Send an event to indicate that device information was tracked (optional)
+        logEvent(analytics, "device_info_tracked", { deviceModel });
+      }
+
+      // Call the function to track device information
+      trackDeviceInformation();
+    </script>
+
+    <!-- <script src="./js/firebase.js"></script> -->
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <nav class="navbar">
+          <div class="container-fluid">
+            <a
+              class="navbar-brand"
+              href="https://apps.apple.com/us/app/watch-faces-watchwizard/id6450963467"
+              ><img
+                src="./resources/apple_watch_face_logo.webp"
+                alt="Unique apple watch face logo for watch faces website"
+                width="55"
+                height="55"
+                class="d-inline-block align-text-top"
+              />
+              Watch Faces - WatchWizard</a
+            >
+          </div>
+        </nav>
+      </header>
+      <section class="hero">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-12">
+              <h1>Best Watch Faces App<br />For Apple Watch</h1>
+              <h2>where magic meets your wrist</h2>
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="swiper_slider_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame-mockup.png"
+                          class="watch_empty"
+                          alt="best Watch faces for Apple Watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/topSLider/LW_green.webp"
+                          class="watch_wallpaper"
+                          alt="green luxury watch wallpaper"
+                        />
+                      </div>
+                    </div>
+                    <div class="sonar-wrapper">
+                      <div class="sonar-emitter">
+                        <div class="sonar-wave sonar-wave1"></div>
+                        <div class="sonar-wave sonar-wave2"></div>
+                        <div class="sonar-wave sonar-wave3"></div>
+                        <div class="sonar-wave sonar-wave4"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper_slider_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame-mockup.png"
+                          class="watch_empty"
+                          alt="latest apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/topSLider/royal_clock_blue.webp"
+                          class="watch_wallpaper"
+                          alt="blue royal clock watch face wallpaper"
+                        />
+                      </div>
+                    </div>
+                    <div class="sonar-wrapper">
+                      <div class="sonar-emitter">
+                        <div class="sonar-wave sonar-wave1"></div>
+                        <div class="sonar-wave sonar-wave2"></div>
+                        <div class="sonar-wave sonar-wave3"></div>
+                        <div class="sonar-wave sonar-wave4"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper_slider_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame-mockup.png"
+                          class="watch_empty"
+                          alt="apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/topSLider/tech_blue_clock.webp"
+                          class="watch_wallpaper"
+                          alt="blue tech clock wallpaper for apple watch"
+                        />
+                      </div>
+                    </div>
+                    <div class="sonar-wrapper">
+                      <div class="sonar-emitter">
+                        <div class="sonar-wave sonar-wave1"></div>
+                        <div class="sonar-wave sonar-wave2"></div>
+                        <div class="sonar-wave sonar-wave3"></div>
+                        <div class="sonar-wave sonar-wave4"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h3>Start Customizing<br />watch faces</h3>
+              <a
+                class="garident-btn"
+                href="https://apps.apple.com/us/app/watch-faces-watchwizard/id6450963467"
+                data-event-name="top_download"
+                >Install Now<i class="fa fa-arrow-right"></i>
+                <div class="fill-two"></div
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="marquee-slider-part">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="marquee">
+                <div class="marquee__content">
+                  <ul class="list-inline">
+                    <li>
+                      <img
+                        src="./resources/screenshotSlider/screenshots_slider.webp"
+                        class="img-fluid"
+                        alt="asthetic apple watch faces"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="./resources/screenshotSlider/screenshots_slider.webp"
+                        class="img-fluid"
+                        alt="best watch faces gallery"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="./resources/screenshotSlider/screenshots_slider.webp"
+                        class="img-fluid"
+                        alt="personalize watch faces"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="./resources/screenshotSlider/screenshots_slider.webp"
+                        class="img-fluid"
+                        alt="watch faces widgets"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="./resources/screenshotSlider/screenshots_slider.webp"
+                        class="img-fluid"
+                        alt="apple watch customizarion"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="app-store-download">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <div class="img">
+                <img class="img-fluid" src="./resources/rating.webp" alt="top rated watch faces review" />
+              </div>
+            </div>
+            <div class="col-12">
+              <p>Highest rated watch app on the App Store</p>
+              <h2>Compatible with All Series</h2>
+              <ul>
+                <li>Series Ulta</li>
+                <li>Series 8</li>
+                <li>Series SE2</li>
+                <li>Series 7</li>
+                <li>Series 6</li>
+                <li>Series 5</li>
+                <li>Series 4</li>
+                <li>Series SE</li>
+                <li>Series 3</li>
+                <li>Series 2</li>
+                <li>Series 1</li>
+                <li>Original</li>
+              </ul>
+              <h2>
+                Massive collections of Watch Faces & Widgets. Create Your Own
+                Design
+              </h2>
+              <a
+                href="https://apps.apple.com/us/app/watch-faces-watchwizard/id6450963467"
+                class="download-button garident-btn"
+                target="_blank"
+                data-event-name="collections_download"
+                ><i class="fab fa-apple"></i>Download on the App Store
+                <div class="fill-two"></div
+              ></a>
+            </div>
+            <div class="col-12 px-0">
+              <div class="marquee-slider">
+                <div class="marquee">
+                  <div class="marquee__group">
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="gegenuine apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/apple_logo_with_cloth_purple_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="purple colour apple logo"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="original apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/apple_logo_with_fiber_texture_orange_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="interesting orange colour fiber texture logo"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="latest apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/apple_logo_with_grid_texture_no_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="grid textcure apple logo"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="gorgeous apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/blue_tiger_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="blue tiger watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="attractive apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/break_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="gracious watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="gentle iwatch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/coco_sea_portarit.webp"
+                          class="watch_wallpaper"
+                          alt="coconut on the sea watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="decent apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/color_hill_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="enjoyable colourful hill watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="plesant apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/dancing_skeleton_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="dancing skeleton watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/dark_pumpkin_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="scary dark pumpkin watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="iwatch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/duck_in_sky_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="charming duck in the sky watch face"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div aria-hidden="true" class="marquee__group">
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="original iwatch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/apple_logo_with_cloth_purple_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="purple colour apple logo"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="genuine iwatch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/apple_logo_with_fiber_texture_orange_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="orange colour apple logo"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="apple smartwatch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/apple_logo_with_grid_texture_no_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="extreme apple logo"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="best apple smartwatch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/blue_tiger_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="asthetic blue tiger watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="latest watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/break_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="harmonius watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="smartwatch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/coco_sea_portarit.webp"
+                          class="watch_wallpaper"
+                          alt="coconut in the sea live watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="beautiful apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/color_hill_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="colorfull hill live watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="smart apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/dancing_skeleton_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="dancing skeleton live watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="best apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/dark_pumpkin_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="pumpkin watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="radiant apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/duck_in_sky_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="sky watch face"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="marquee marquee--reverse">
+                  <div class="marquee__group">
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="new apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/grave_of_pumpkin_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="pumpkin live watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="update apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/halloween_fire_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="halloween watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/life_is_better_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="life watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="magnificent apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/neuron_cat_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="Lovely neuron cat watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="Designer apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/nothing_is_impossible_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="nothing is imposibble live face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="Customizable apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/life_is_better_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="life is better apple watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="top rated apple watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/owl_coloring_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="colorful owl watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="frame for iwatch"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/owl_in_night_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="live owl face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="aesthetic iwatch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/pink_cat_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="pink cat live face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="apple watch ultra frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/purple_cat_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="live purple cat face"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div aria-hidden="true" class="marquee__group">
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="apple watch ultra2 frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/red_cat_portriat.webp"
+                          class="watch_wallpaper"
+                          alt="live red cat face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="apple watch series 9 frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/single_bread_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="pink bread watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="apple watch ultra 2 frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/skeleton_halloween_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="live skeleton halloween face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="apple watch all series frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/sky_cat_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="Live sky cat watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="apple ultra watch frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/summer_camera_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="live summer watch face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="apple watch SE frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/tech_cyan_clock.webp"
+                          class="watch_wallpaper"
+                          alt="tech clock face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="apple watch series 7 frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/summer_evening_portriat.webp"
+                          class="watch_wallpaper"
+                          alt="live evening summer face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="apple watch series 6 frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/tech_blue_clock.webp"
+                          class="watch_wallpaper"
+                          alt="blue tech clock face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="apple watch series 5 frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/think_out_of_box_portrait.webp"
+                          class="watch_wallpaper"
+                          alt="live think out of box face"
+                        />
+                      </div>
+                    </div>
+                    <div class="marquee_group_item">
+                      <div class="marquee_group_item_frame">
+                        <img
+                          src="./resources/apple-frame.png"
+                          class="watch_empty"
+                          alt="apple watch 4 frame"
+                        />
+                      </div>
+                      <div class="watch_div">
+                        <img
+                          src="./resources/twoRowSlider/tech_green_clock.webp"
+                          class="watch_wallpaper"
+                          alt="green tech cloce face"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="glowing-animate">
+          <div class="glowing">
+            <span style="--i: 1"></span><span style="--i: 2"></span
+            ><span style="--i: 3"></span>
+          </div>
+          <div class="glowing">
+            <span style="--i: 1"></span><span style="--i: 2"></span
+            ><span style="--i: 3"></span>
+          </div>
+          <div class="glowing">
+            <span style="--i: 1"></span><span style="--i: 2"></span
+            ><span style="--i: 3"></span>
+          </div>
+          <div class="glowing">
+            <span style="--i: 1"></span><span style="--i: 2"></span
+            ><span style="--i: 3"></span>
+          </div>
+        </div>
+      </div>
+      <div class="weekly-update">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h4>Weekly Updates</h4>
+              <p>
+                We're adding new watch faces every week based on the time,
+                special occasions and your preference
+              </p>
+            </div>
+            <div class="col-lg-12 text-center">
+              <ul>
+                <li>Apple</li>
+                <li>AI Art Pick</li>
+                <li>Fall</li>
+                <li>Summer</li>
+                <li>Royal</li>
+                <li>Luxury</li>
+                <li>Gear Style</li>
+                <li>Barbie</li>
+                <li>Calendar</li>
+                <li>3D</li>
+                <li>Portraits</li>
+                <li>Live</li>
+                <li>Red Theme</li>
+                <li>Love</li>
+                <li>Funny</li>
+                <li>Classic</li>
+                <li>Halloween</li>
+                <li>Mechanical</li>
+                <li>Quotes</li>
+                <li>Rolex</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="play-with-watch">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <h4>Customize your watch faces</h4>
+              <p>
+                Personalized watch face with 
+                Unique Apple Watch design.
+                Experience Apple Watch customization at its finest!
+              </p>
+            </div>
+            <div class="col-12">
+              <a
+                href="https://apps.apple.com/us/app/watch-faces-watchwizard/id6450963467"
+                target="_blank"
+                data-event-name="customization_download"
+                role="button"
+                ><video
+                  id="video-poster"
+                  playsinline
+                  autoplay
+                  loop
+                  muted
+                  poster="./resources/review/poster/video-poster.webp"
+                >
+                  <source src="./resources/watch-video.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <div class="overlay">
+                  <img
+                    src="./resources/app-store.webp"
+                    class="img-fluid"
+                    alt="Watch face customization"
+                  /></div
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="client-review">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <h2 class="text-capitalize">How people<br />think about the app</h2>
+            </div>
+            <div class="col-12">
+              <div class="swiper imageSlider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <div class="marquee_group_item">
+                        <div class="marquee_group_item_frame">
+                          <img
+                            src="./resources/transparent_face_v2.png"
+                            class="watch_empty"
+                            alt="apple watch transparent face"
+                          />
+                        </div>
+                        <div class="watch_div">
+                          <video
+                            id="anime_girl_witch"
+                            class="watch_wallpaper"
+                            playsinline
+                            autoplay
+                            loop
+                            muted
+                            poster="./resources/review/poster/anime_girl_witch.webp"
+                          >
+                            <source
+                              src="./resources/review/video/anime_girl_witch.mp4"
+                              type="video/mp4"
+                            />
+                            Your browser does not support the video tag.
+                          </video>
+                        </div>
+                      </div>
+                      <div class="title">
+                        <h4>Best Apple Watch App</h4>
+                        <ul class="star">
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                        </ul>
+                      </div>
+                      <p>
+                        Got an Apple Watch for my birthday and thought the
+                        wallpaper options were a bit bland. Discovered this app
+                        and it's a game-changer! Now I can use any internet
+                        picture as my watch wallpaper. Love how it adds a
+                        personal touch. Kudos to the developer for this awesome
+                        feature! If you want to spice up your Apple Watch, this
+                        app is a must-have!
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <div class="marquee_group_item">
+                        <div class="marquee_group_item_frame">
+                          <img
+                            src="./resources/transparent_face_v2.png"
+                            class="watch_empty"
+                            alt="live watch face"
+                          />
+                        </div>
+                        <div class="watch_div">
+                          <video
+                            id="apple_3d_rotation_silver"
+                            playsinline
+                            autoplay
+                            loop
+                            muted
+                            poster="./resources/review/poster/apple_3d_rotation_silver.webp"
+                            class="watch_wallpaper"
+                          >
+                            <source
+                              src="./resources/review/video/apple_3d_rotation_silver.mp4"
+                              type="video/mp4"
+                            />
+                            Your browser does not support the video tag.
+                          </video>
+                        </div>
+                      </div>
+                      <div class="title">
+                        <h4>Game-Changing Apple Watch Customization!</h4>
+                        <ul class="star">
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                        </ul>
+                      </div>
+                      <p>
+                        Loving this app! Tons of faces to choose from, with new
+                        ones every week. Affordable and stylish Watch faces,
+                        including holiday options. Surprisingly high value for
+                        the price. Tried others, but this one stands out with
+                        its cool faces and zero battery issues. Solid 5 stars
+                        and more for this incredible app!
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <div class="marquee_group_item">
+                        <div class="marquee_group_item_frame">
+                          <img
+                            src="./resources/transparent_face_v2.png"
+                            class="watch_empty"
+                            alt="fall watch face"
+                          />
+                        </div>
+                        <div class="watch_div">
+                          <video
+                            id="apple_butterflies"
+                            playsinline
+                            autoplay
+                            loop
+                            muted
+                            poster="./resources/review/poster/apple_butterflies.webp"
+                            class="watch_wallpaper"
+                          >
+                            <source
+                              src="./resources/review/video/apple_butterflies.mp4"
+                              type="video/mp4"
+                            />
+                            Your browser does not support the video tag.
+                          </video>
+                        </div>
+                      </div>
+                      <div class="title">
+                        <h4>Best watch face Designer</h4>
+                        <ul class="star">
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                        </ul>
+                      </div>
+                      <p>
+                        This is one of the best watch face designer app I've
+                        used for my Apple Watch. They've got endless editing
+                        options for photos, live, portrait watch faces from
+                        video, giphy, background, sticker, text, and even
+                        drawings...
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <div class="marquee_group_item">
+                        <div class="marquee_group_item_frame">
+                          <img
+                            src="./resources/transparent_face_v2.png"
+                            class="watch_empty"
+                            alt="Premium watch faces"
+                          />
+                        </div>
+                        <div class="watch_div">
+                          <video
+                            id="grave_hand_1"
+                            playsinline
+                            autoplay
+                            loop
+                            muted
+                            poster="./resources/review/poster/grave_hand_1.webp"
+                            class="watch_wallpaper"
+                          >
+                            <source
+                              src="./resources/review/video/grave_hand_1.mp4"
+                              type="video/mp4"
+                            />
+                            Your browser does not support the video tag.
+                          </video>
+                        </div>
+                      </div>
+                      <div class="title">
+                        <h4>Best watch face experience</h4>
+                        <ul class="star">
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                        </ul>
+                      </div>
+                      <p>
+                        Stunning and beautiful watch faces with superb
+                        configuration. I love the video feature and custom
+                        options of drawing. This is going to be one of my
+                        essential apps. Keep up the good work.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <div class="marquee_group_item">
+                        <div class="marquee_group_item_frame">
+                          <img
+                            src="./resources/transparent_face_v2.png"
+                            class="watch_empty"
+                            alt="Free Apple Watch faces"
+                          />
+                        </div>
+                        <div class="watch_div">
+                          <video
+                            id="LW_green"
+                            playsinline
+                            autoplay
+                            loop
+                            muted
+                            poster="./resources/review/poster/LW_green.jpg"
+                            class="watch_wallpaper"
+                          >
+                            <source
+                              src="./resources/review/video/LW_green.mp4"
+                              type="video/mp4"
+                            />
+                            Your browser does not support the video tag.
+                          </video>
+                        </div>
+                      </div>
+                      <div class="title">
+                        <h4>Lots to choose download & it’s free!</h4>
+                        <ul class="star">
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                        </ul>
+                      </div>
+                      <p>
+                        So many choices and simple to set up. Quick loading too.
+                        Love the vast collection for faces. New user, but loving
+                        the free and vibrant options. Great clarity and color!
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="img">
+                      <div class="marquee_group_item">
+                        <div class="marquee_group_item_frame">
+                          <img
+                            src="./resources/transparent_face_v2.png"
+                            class="watch_empty"
+                            alt="galaxy watch face"
+                          />
+                        </div>
+                        <div class="watch_div">
+                          <video
+                            id="LW_lime"
+                            playsinline
+                            autoplay
+                            loop
+                            muted
+                            poster="./resources/review/poster/LW_lime.jpg"
+                            class="watch_wallpaper"
+                          >
+                            <source
+                              src="./resources/review/video/LW_lime.mp4"
+                              type="video/mp4"
+                            />
+                            Your browser does not support the video tag.
+                          </video>
+                        </div>
+                      </div>
+                      <div class="title">
+                        <h4>Great product</h4>
+                        <ul class="star">
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                          <li><i class="fa fa-star"></i></li>
+                        </ul>
+                      </div>
+                      <p>Easy to use</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <a
+                class="garident-btn"
+                href="https://apps.apple.com/us/app/watch-faces-watchwizard/id6450963467"
+                data-event-name="review_download"
+                >Get The App<i class="fa fa-arrow-right"></i>
+                <div class="fill-two"></div
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="glowing-animate">
+          <div class="glowing">
+            <span style="--i: 1"></span><span style="--i: 2"></span
+            ><span style="--i: 3"></span>
+          </div>
+          <div class="glowing">
+            <span style="--i: 1"></span><span style="--i: 2"></span
+            ><span style="--i: 3"></span>
+          </div>
+          <div class="glowing">
+            <span style="--i: 1"></span><span style="--i: 2"></span
+            ><span style="--i: 3"></span>
+          </div>
+          <div class="glowing">
+            <span style="--i: 1"></span><span style="--i: 2"></span
+            ><span style="--i: 3"></span>
+          </div>
+        </div>
+        <div class="overlay"></div>
+      </section>
+      <footer>
+        <nav class="footer-navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a
+                class=""
+                href="https://apps.apple.com/us/app/watch-faces-watchwizard/id6450963467"
+                ><img
+                  src="./resources/apple_watch_face_logo.webp"
+                  alt="top apple watch logo"
+                  width="55"
+                  height="55"
+                  class="d-inline-block align-text-top"
+                />
+                Watch Faces - WatchWizard</a
+              >
+            </div>
+          </div>
+        </nav>
+      </footer>
+      <div class="tiny-footer">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 text-center">
+              <p>
+                &copy;<a
+                  class="mx-1"
+                  href="https://apps.apple.com/us/app/watch-faces-watchwizard/id6450963467"
+                  >Appdrove LLC</a
+                >All rights reserved 2023
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/smooth-scroll.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/b/1.8.2/b.min.js"
+      integrity="sha512-Yrd3VqXNBUzyCQWVBlL65mTdE1snypc9E3XnGJba0zJmxweyJAqDNp6XSARxxAO6hWdwMpKQOIGE5uvGdG0+Yw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/main.min.js"></script>
+
+    <script>
+      // Function to log the event when a link is clicked
+      function logDownloadEvent(event) {
+        const eventName = event.target.getAttribute("data-event-name");
+        if (eventName) {
+          firebase
+            .analytics()
+            .logEvent("download_button_pressed", { place: eventName });
+        }
+      }
+
+      // Add a click event listener to each anchor tag
+      const links = document.querySelectorAll("a[data-event-name]");
+      links.forEach((link) => {
+        link.addEventListener("click", logDownloadEvent);
+      });
+    </script>
+  </body>
+</html>
